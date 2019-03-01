@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/local/bin/node /Users/alexandrerivest/.yarn/bin/yarn.js add react-native-loading-spinner-overlay
+
+PATH: 
+  /Users/alexandrerivest/.yarn/bin:/Users/alexandrerivest/.config/yarn/global/node_modules/.bin:/Users/alexandrerivest/.sdkman/candidates/gradle/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Users/alexandrerivest/Library/Android/sdk/tools:/Users/alexandrerivest/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  8.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/alexandrerivest/Desktop/react-native-with-loading/package.json: Unexpected token } in JSON at position 404
+      at JSON.parse (<anonymous>)
+      at /Users/alexandrerivest/.yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/alexandrerivest/.yarn/lib/cli.js:304:30)
+      at /Users/alexandrerivest/.yarn/lib/cli.js:315:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "react-native-with-loading",
+    "version": "1.0.0",
+    "description": "Display a loading spinner when mounting a component",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "loading",
+      "HOC",
+      "react-native"
+    ],
+    "author": "Alexandre Rivest",
+    "license": "ISC",
+    "dependencies": {
+      "prop-types": "^15.6.1",
+    },
+    "peerDependencies": {
+      "react": ">=15.0.0",
+      "react-native": "*"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

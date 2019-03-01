@@ -1,0 +1,23 @@
+{
+  "name": "react-native-with-loading",
+  "version": "1.0.0",
+  "description": "Display a loading spinner when mounting a component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "loading",
+    "HOC",
+    "react-native"
+  ],
+  "author": "Alexandre Rivest",
+  "license": "ISC",
+  "dependencies": {
+    "react-native-loading-spinner-overlay": "^1.0.1"
+  },
+  "peerDependencies": {
+    "react": ">=15.0.0",
+    "react-native": "*"
+  }
+}
