@@ -12,7 +12,7 @@
     "react-native"
   ],
   "author": "Alexandre Rivest",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "react-native-loading-spinner-overlay": "^1.0.1"
   },
